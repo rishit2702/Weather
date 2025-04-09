@@ -57,7 +57,3 @@ The app can be deployed to platforms like Vercel, Netlify, or GitHub Pages. To c
 ```bash
 npm run build
 ```
-
-## Screenshots
-
-Add screenshots of your application here after deployment.
