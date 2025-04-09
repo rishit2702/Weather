@@ -1,20 +1,22 @@
 {
-  "name": "weather",
+  "name": "weather-dashboard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/dom": "^10.4.0",
-    "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.3.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.126",
-    "@types/react": "^19.1.0",
-    "@types/react-dom": "^19.1.1",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
+    "@chakra-ui/icons": "^2.0.20",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@types/node": "^18.19.0",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "axios": "^1.6.5",
+    "framer-motion": "^10.16.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.12.0",
     "react-scripts": "5.0.1",
-    "typescript": "^4.9.5",
+    "typescript": "^5.3.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -40,5 +42,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/react-icons": "^4.11.0"
   }
 }
